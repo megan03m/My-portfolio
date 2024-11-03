@@ -1,0 +1,312 @@
+.bg-container{
+    background-image: url("https://img.freepik.com/free-vector/gradient-futuristic-background-with-connection-concept_23-2149104857.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    background-image: url('images/your-background-image.jpg'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Navbar */
+nav {
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5); /* Transparent background */
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Home Header Section */
+.home-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6); /* Slight overlay to improve text readability */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.home-header h2 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.home-header p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color:#ffffff;
+}
+/* About Section Styles */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    background-image: url('images/your-background-image.jpg'); /* Same background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.about-section .overlay {
+    background: rgba(0, 0, 0, 0.6); /* Overlay for readability */
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: center;
+    color: #fff;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.skills {
+    margin-top: 1rem;
+}
+
+.skills h3 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: #ff6347;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    line-height: 1.4;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background-color: #ff4500;
+}
+/* Projects Section Styles */
+.projects-section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color:#ffffff;
+}
+
+/* Project Grid Layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+/* Project Card Styles */
+.project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+    color: #333;
+}
+
+.project-card p {
+    font-size: 1rem;
+    padding: 0 1rem 1rem;
+    color: #666;
+}
+/* Contact Section Styles */
+.contact-section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color:#fffff;
+}
+
+/* Contact Details */
+.contact-details {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.contact-details h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-details h4 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.contact-details p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color:#fffff;
+}
+
+.contact-details a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1rem; /* Adjust font size for visibility */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff6347; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.contact-form button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem; /* Adjust button font size */
+}
+
+.contact-form button:hover {
+    background-color: #ff4500;
+}
